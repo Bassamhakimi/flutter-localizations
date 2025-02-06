@@ -2,7 +2,7 @@ name: attribute_localizations
 description: Attribute localizations.
 version: 1.0.0
 author: moaidalrazhy
-homepage: https://github.com/moaidalrazhy/flutter-localizations/packages/attribute_localizations
+homepage: https://github.com/Bassamhakimi/flutter-localizations/packages/attribute_localizations
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
