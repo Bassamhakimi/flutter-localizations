@@ -2,7 +2,7 @@ name: validation_localizations
 description: Validation localizations.
 version: 1.0.0
 author: moaidalrazhy
-homepage: https://github.com/MoaidAlrazhy/flutter-localizations
+homepage: https://github.com/Bassamhakimi/flutter-localizations
 
 publish_to: "none"
 
@@ -19,7 +19,7 @@ dependencies:
   intl: ^0.18.0
   attribute_localizations:
     git:
-      url: https://github.com/MoaidAlrazhy/flutter-localizations.git
+      url: https://github.com/Bassamhakimi/flutter-localizations.git
       path: packages/attribute_localizations
       ref: 1.0.8
 
