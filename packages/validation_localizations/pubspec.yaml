@@ -1,14 +1,14 @@
 name: validation_localizations
 description: Validation localizations.
-version: 1.0.0
-author: moaidalrazhy
+version: 1.0.1
+author: Bassamhakimi
 homepage: https://github.com/Bassamhakimi/flutter-localizations
 
 publish_to: "none"
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=3.0.0 <4.0.0"  # Updated for Dart 3
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:
@@ -16,12 +16,12 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
-  intl: ^0.18.0
+  intl: ^0.20.2 
   attribute_localizations:
     git:
       url: https://github.com/Bassamhakimi/flutter-localizations.git
       path: packages/attribute_localizations
-      ref: 1.0.8
+      ref: updated-intl
 
 dev_dependencies:
   flutter_test:
