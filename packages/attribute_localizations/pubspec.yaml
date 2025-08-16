@@ -1,12 +1,12 @@
 name: attribute_localizations
 description: Attribute localizations.
-version: 1.0.0
-author: moaidalrazhy
+version: 1.0.1
+author: Bassamhakimi
 homepage: https://github.com/Bassamhakimi/flutter-localizations/packages/attribute_localizations
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
+ sdk: ">=3.0.0 <4.0.0"  # Dart 3 compatible
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:
@@ -14,7 +14,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
-  intl: ^0.18.0
+  intl: ^0.20.2 
 
 dev_dependencies:
   flutter_test:
